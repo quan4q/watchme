@@ -63,7 +63,6 @@ const AddVideoModal = ({ isOpen, onClose, onAddVideo, onEditVideo, editingVideo 
     <Modal
       isOpen={isOpen}
       onRequestClose={onClose}
-      ariaHideApp={false}
     >
       <div className='modal-content'>
         <div className='modal-header'>
