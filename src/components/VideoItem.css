@@ -1,0 +1,88 @@
+.video-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition-duration: 0.4s;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 280px;
+  width: 300px;
+  overflow: hidden;
+}
+
+.video-card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.video-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8px;
+  gap: 12px;
+}
+
+.video-card-title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000d2;
+  flex-grow: 1;
+  line-height: 1.4;
+}
+
+.video-card-description {
+  margin: 0;
+  color: #000000be;
+  line-height: 1.5;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  max-width: 100%; 
+  overflow: hidden;
+  font-size: medium;   
+}
+
+.video-card-actions{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.video-card-like-button{
+    background: none;
+    border: none;
+    font-size: 20px;
+    padding: 4px;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+}
+
+.video-card-like-button:hover{
+    box-shadow: 0 8px 16px 0 rgba(210, 212, 67, 0.596), 0 6px 20px 0 rgba(213, 216, 49, 0.19);
+}
+
+.video-card-delete-button{
+    background: none;
+    border: none;
+    font-size: 20px;
+    padding: 4px;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+}
+
+.video-card-delete-button:hover{
+    box-shadow: 0 8px 16px 0 rgba(226, 32, 32, 0.418), 0 6px 20px 0 rgba(247, 54, 54, 0.527);
+}

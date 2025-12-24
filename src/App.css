@@ -1,0 +1,97 @@
+.tabs{
+  display: flex;
+  gap: 50px;
+  margin-left: 5%;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+  width: 100%;
+  background-color: #327474;
+}
+
+.search-input{
+  margin-left: 35%;
+  width: 20%;
+  height: 40px;
+  border-radius: 12px;
+  background-color: #4cafaf;
+  color: rgba(0, 0, 0, 0.733);
+  font-size: medium;
+  border-width: 0px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.4s;
+}
+
+.search-input:focus{
+  outline: none;
+}
+
+.search-input::placeholder{
+  color: rgba(0, 0, 0, 0.733);
+  opacity: 0.8;
+}
+
+.search-input:hover{
+  background-color: #387e7e;
+}
+
+.tab{
+  background-color: #4cafaf;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.tab:hover{
+  background-color: #387e7e;
+  color: black;
+}
+
+.logo{
+  color: rgba(0, 0, 0, 0.904);
+}
+
+.cards-div{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  align-content: center;
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.add-video-button{
+  border-radius: 50%;
+  border: none;
+  height: 280px;
+  width: 300px;
+  background-color: #4cafaf;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.add-video-button:hover{
+  background-color: #387e7e;
+  color: black;
+}
