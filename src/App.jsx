@@ -35,7 +35,7 @@ function App() {
   const handleAddVideo = (videoData) => {
     const newVideo = {
       ...videoData,
-      id: Date.now()
+      id: crypto.randomUUID()
     };
     const updatedVideos = [...allVideos, newVideo];
     setAllVideos(updatedVideos);
